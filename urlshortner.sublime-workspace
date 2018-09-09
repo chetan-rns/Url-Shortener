@@ -519,6 +519,33 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/shorturl/settings.py",
+			"settings":
+			{
+				"buffer_size": 3119,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/shortener/models.py",
+			"settings":
+			{
+				"buffer_size": 320,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/shortener/admin.py",
+			"settings":
+			{
+				"buffer_size": 112,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -672,10 +699,17 @@
 	},
 	"expanded_folders":
 	[
-		"/home/chetan/urlshortner"
+		"/home/chetan/urlshortner",
+		"/home/chetan/urlshortner/src",
+		"/home/chetan/urlshortner/src/shortener",
+		"/home/chetan/urlshortner/src/shortener/migrations",
+		"/home/chetan/urlshortner/src/shorturl"
 	],
 	"file_history":
 	[
+		"/home/chetan/urlshortner/.gitignore",
+		"/home/chetan/urlshortner/README.md",
+		"/home/chetan/urlshortner/urlshortner.sublime-project",
 		"/home/chetan/.ZPractice/STACK/usingLinkedList.cpp",
 		"/home/chetan/.ZPractice/STACK/usingarray.cpp",
 		"/home/chetan/.ZPractice/Tree/sample.cpp",
@@ -800,10 +834,7 @@
 		"/home/chetan/.ZPractice/DisjointSet/output.txt",
 		"/home/chetan/.ZPractice/DisjointSet/input.txt",
 		"/home/chetan/.ZPractice/DisjointSet/TeachersDilemma.cpp",
-		"/home/chetan/.ZPractice/DisjointSet/hacker.cpp",
-		"/home/chetan/.ZPractice/DisjointSet/OwlFight.cpp",
-		"/home/chetan/.ZPractice/DisjointSet/KnightTournament.cpp",
-		"/home/chetan/.config/sublime-text-3/Packages/ClangAutoComplete/ClangAutoComplete.sublime-settings"
+		"/home/chetan/.ZPractice/DisjointSet/hacker.cpp"
 	],
 	"find":
 	{
@@ -879,8 +910,104 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/shorturl/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1085,
+								1085
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"git_gutter_is_enabled": true,
+							"show_definitions": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 480.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/shortener/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 320,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								320,
+								320
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"git_gutter_is_enabled": true,
+							"show_definitions": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/shortener/admin.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								112,
+								112
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"git_gutter_is_enabled": true,
+							"show_definitions": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -981,7 +1108,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 138.0,
+	"side_bar_width": 240.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
